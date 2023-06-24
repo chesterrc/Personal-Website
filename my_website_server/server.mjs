@@ -10,21 +10,7 @@ app.use(express.json());
 app.use("/", router);
 
 
-/*
-const contactEmail = nodemailer.createTransport({
-    transport: {
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true,
-        auth:{
-            user:'personalwebtest132@gmail.com',
-            pass:"uxub xqkr syvj zrif",
-            }
-    },
-});
-*/
-
-const contactEmail = nodemailer.createTransport('smtps://personalwebtest132@gmail.com:uxub xqkr syvj zrif@smtp.gmail.com')
+const contactEmail = nodemailer.createTransport(###)
 
 contactEmail.verify((error) => {
     if (error) {
@@ -42,7 +28,7 @@ app.post('/send', (req, res, next) => {
     console.log(req.body)
     var mail = {
         from: email,
-        to: 'personalwebtest132@gmail.com',
+        to: ###,
         subject: subject,
         text: name + " " + email + " " + message
     }
