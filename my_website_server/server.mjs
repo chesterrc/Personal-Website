@@ -9,21 +9,6 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 
-
-/*
-const contactEmail = nodemailer.createTransport({
-    transport: {
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true,
-        auth:{
-            user:'personalwebtest132@gmail.com',
-            pass:"uxub xqkr syvj zrif",
-            }
-    },
-});
-*/
-
 const contactEmail = nodemailer.createTransport('smtps://personalwebtest132@gmail.com:uxub xqkr syvj zrif@smtp.gmail.com')
 
 contactEmail.verify((error) => {

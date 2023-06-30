@@ -1,14 +1,23 @@
 {
-  "name": "personal-web",
+  "name": "my-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@react-spring/parallax": "^9.7.2",
+    "@react-spring/web": "^9.7.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "framer-motion": "^10.12.17",
+    "nodemailer": "^6.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
+    "react-scroll-parallax": "^3.4.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

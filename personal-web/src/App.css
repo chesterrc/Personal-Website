@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 .App-header {
   background-color: #282c34;
@@ -14,4 +22,45 @@
   color: white;
 }
 
+.Ltitle{
+}
 
+.nav{
+  position: absolute;
+  left: 40em;
+  display:flex;
+  list-style-type: none;
+  border-style: dotted;
+
+}
+
+.Landing {
+  border-style: dotted;
+  border-color: red;
+}
+
+li{
+  margin: 1em;
+}
+
+.ProjTitle{
+  position: relative;
+  left: 150px;
+  border-style: dotted;
+}
+
+.ShowProj{
+  border-style: dotted;
+}
+
+.Welcome{
+  border-style: dotted;
+}
+
+.Dndtitle{
+  border-style: dotted;
+}
+
+.DndImage{
+  border-style: dotted;
+}
